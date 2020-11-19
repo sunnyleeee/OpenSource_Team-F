@@ -48,7 +48,7 @@ jupyter notebook, pycharm, spider 각기 다른 환경에서 매끄러운 결과
  
 #  
 ##  
-###  4. Model Selection  
+### 4. Model Selection  
 **1) Faster R - CNN**  
 <img src=Faster_R_CNN.jpg width=550 height = 200>  
  -정확하고 겹쳐지거나 작은 사물에 대한 인식률이 높지만, 느리고 실시간연동을 생각하고 만든 네트워크가 아니므로 배제  
@@ -63,10 +63,32 @@ jupyter notebook, pycharm, spider 각기 다른 환경에서 매끄러운 결과
 
 #  
 ##  
-### 코드 설명  
+### 5. 코드 설명  
 <img src=mask.png width=680 height = 280>  
 
 **1. OpenCV 이용 - 얼굴 인식** ➡ **2. MobileNet_V2 이용 - 마스크 인식** ➡ **3. 착용 및 미착용 구분**  
+
+
+#  
+##  
+###  Dataset  
+프로젝트 멤버들의 사진과 Kaggle을 통한 사진 각 각 1000장  
+>with_mask(마스크 착용) : Kaggle Image + Project Member picture  
+>without_mask(마스크 미착용) : Kaggle Image + Project Member picture  
+
+#  
+##  
+###  참고 자료
+
+OpenCV 관심영역 :  https://lepton.flir.com/application-notes/people-finding-with-a-lepton  
+
+마스크 인식과 기존 opensource 활용 : https://github.com/chandrikadeb7/Face-Mask-Detection  
+
+마스크 인식(yolo) 참고 : https://github.com/VictorLin000/YOLOv3_mask_detect  
+
+마스크 인식 원리 참고 : https://towardsdatascience.com/covid-19-face-mask-detection-using-tensorflow-and-opencv-702dd833515b  
+
+Mobilenetv2 원리 참고 : https://n1094.tistory.com/29  
 
 ------------------------------------------
 ### Member_git_address
