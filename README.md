@@ -1,5 +1,5 @@
-<h1 align="center"> COVID-19 Face Mask Detection  </h1>
-<h2> 오픈소스를 이용한 얼굴인식과 Kears를 활용하여 마스크 검사 </h2>
+# COVID-19 Face Mask Detection  
+## 오픈소스를 이용한 얼굴인식과 Kears를 활용하여 마스크 검사
 
 <div align= "center">  
   
