@@ -95,13 +95,13 @@ OpenCV 관심영역 :  https://lepton.flir.com/application-notes/people-finding-
 Mobilenetv2 원리 참고 : https://n1094.tistory.com/29  
 
 ------------------------------------------
-# 
-## Member
-박진홍  [![Generic badge](https://img.shields.io/badge/github-go-red?logo=github)](https://github.com/HallymhongE)
-김기훈  [![Generic badge](https://img.shields.io/badge/github-go-orange?logo=github)](https://github.com/daedu0813)
-윤찬우  [![Generic badge](https://img.shields.io/badge/github-go-green?logo=github)](https://github.com/GitCWoo)
-용권순 [![Generic badge](https://img.shields.io/badge/github-go-blue?logo=github)](https://github.com/reversesky)
-이선재  [![Generic badge](https://img.shields.io/badge/github-go-blueviolet?logo=github)](https://github.com/sunnyleeee)
+<h3 align="center">Member</h3>
+
+박진홍  [![Generic badge](https://img.shields.io/badge/github-go-red?logo=github)](https://github.com/HallymhongE)|
+김기훈  [![Generic badge](https://img.shields.io/badge/github-go-orange?logo=github)](https://github.com/daedu0813)|
+윤찬우  [![Generic badge](https://img.shields.io/badge/github-go-green?logo=github)](https://github.com/GitCWoo)|
+용권순 [![Generic badge](https://img.shields.io/badge/github-go-blue?logo=github)](https://github.com/reversesky)|
+이선재  [![Generic badge](https://img.shields.io/badge/github-go-blueviolet?logo=github)](https://github.com/sunnyleeee)|
 유예린  [![Generic badge](https://img.shields.io/badge/github-go-ff69b4?logo=github)](https://github.com/yl-zzzz)
 
 
