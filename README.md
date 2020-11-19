@@ -1,5 +1,4 @@
-# COVID-19 Face Mask Detection!   [Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/sunnyleeee/OpenSource_Team-F)  
-
+# COVID-19 Face Mask Detection
 **OpenSource_Team-F Project**  
 **Member: 박진홍(L), 김기훈, 윤찬우, 용권순, 이선재, 유예린**
 
@@ -11,3 +10,4 @@
 >>### 용권순 [![Generic badge](https://img.shields.io/badge/github-go-blue?logo=github)](https://github.com/reversesky)<br>
 >>### 이선재  [![Generic badge](https://img.shields.io/badge/github-go-blueviolet?logo=github)](https://github.com/sunnyleeee)<br>
 >>### 유예린  [![Generic badge](https://img.shields.io/badge/github-go-ff69b4?logo=github)](https://github.com/yl-zzzz)<br>
+![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/sunnyleeee/OpenSource_Team-F)  
