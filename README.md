@@ -1,3 +1,6 @@
+
+<div align= "center">  
+
 # COVID-19 Face Mask Detection  
 ## 오픈소스를 이용한 얼굴인식과 Kears를 활용하여 마스크 검사
 
