@@ -66,9 +66,7 @@ jupyter notebook, pycharm, spider 각기 다른 환경에서 매끄러운 결과
 ### 코드 설명  
 <img src=mask.png width=680 height = 280>  
 
-**1. OpenCV 이용 - 얼굴 인식**  
-**2. MobileNet_V2 이용 - 마스크 인식**  
-**3. 착용 및 미착용 구분**  
+**1. OpenCV 이용 - 얼굴 인식** **2. MobileNet_V2 이용 - 마스크 인식** **3. 착용 및 미착용 구분**  
 
 ------------------------------------------
 ### Member_git_address
