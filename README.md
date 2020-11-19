@@ -60,9 +60,7 @@ jupyter notebook, pycharm, spider 각기 다른 환경에서 매끄러운 결과
  **3) Yolo**  
 <img src=Yolo.png width=300 height = 300>  
  -빠르고 정확하고 사용이 쉽지만, 겹친사물의 구분이 어려운 단점과 지속적으로 사용시도는 하였으나 라이브로리 충돌로 인하여 배제
- **1. OpenCV 이용-얼굴 인식**  
-**2. MobileNet_V2이용-마스크 인식**  
-**3. 착용/미착용 구분**  
+
 #  
 ##  
 ### 코드 설명  
