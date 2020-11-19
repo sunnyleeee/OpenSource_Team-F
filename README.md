@@ -22,6 +22,7 @@
 #  
 ##  
 ### 2. 개발환경 선택  
+<img src=environment.png width=550 height = 120>  
 
 
 
