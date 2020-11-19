@@ -3,8 +3,6 @@
 <h2 align="center">오픈소스를 이용한 얼굴인식과 Kears를 활용하여 마스크 검사
 </h2>
 
-  
- ### Used Models
 ![Python](https://img.shields.io/badge/python-v3.6+-white.svg)
 ![tensorflow](https://img.shields.io/badge/tensorflow-1.15.2-red.svg)
 ![keras](https://img.shields.io/badge/keras-v2.3.1-orange.svg)
