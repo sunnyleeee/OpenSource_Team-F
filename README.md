@@ -40,17 +40,18 @@ jupyter notebook, pycharm, spider 각기 다른 환경에서 매끄러운 결과
  -오픈소스 활용 및 알고리즘 수정  
 **4단계(결과 확인)**  
  -결과 확인 및 버그 수정  
- -Demo 제작
-
+ -Demo 제작  
+ 
 #  
 ##  
 ###  4. Model Selection  
 **1) Faster R - CNN**  
- -정확하고 겹쳐지거나 작은 사물에 대한 인식률이 높지만, 느리고 실시간연동을 생각하고 만든 네트워크가 아니므로 배제하였다.  
+ -정확하고 겹쳐지거나 작은 사물에 대한 인식률이 높지만, 느리고 실시간연동을 생각하고 만든 네트워크가 아니므로 배제  
 **2) MobileNet_V2**  
- -Google에서 만든 Network 이며, Colab과 리눅스 기반 OS에 이용하기 적합하고, 연산량 및 모델 사이즈 축소가 가능하여 선택하였다.
-
-
+ -Google에서 만든 Network 이며, Colab과 리눅스 기반 OS에 이용하기 적합하고, 연산량 및 모델 사이즈 축소가 가능하여 선택  
+ **3) Yolo**  
+ -빠르고 정확하고 사용이 쉽지만, 겹친사물의 구분이 어려운 단점과 지속적으로 사용시도는 하였으나 라이브로리 충돌로 인하여 배제
+ 
 ------------------------------------------
 ### Member_git_address
 >>### 박진홍  [![Generic badge](https://img.shields.io/badge/github-go-red?logo=github)](https://github.com/HallymhongE)
