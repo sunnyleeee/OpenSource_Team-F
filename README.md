@@ -46,7 +46,7 @@ jupyter notebook, pycharm, spider 각기 다른 환경에서 매끄러운 결과
 ##  
 ###  4. Model Selection  
 **1) Faster R - CNN**  
-<img src=Faster R - CNN.jpg width=450 height = 120>  
+<img src=Faster_R_CNN.jpg width=700 height = 120>  
  -정확하고 겹쳐지거나 작은 사물에 대한 인식률이 높지만, 느리고 실시간연동을 생각하고 만든 네트워크가 아니므로 배제  
 **2) MobileNet_V2**  
 <img src=MobileNet_V2.png width=450 height = 120>  
