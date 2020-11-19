@@ -1,5 +1,5 @@
 # USAGE
-# python detect_mask_image.py --image images/pic1.jpeg
+# python detect_mask_image.py
 
 # import the necessary packages
 from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
