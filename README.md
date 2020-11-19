@@ -1,4 +1,4 @@
-# COVID-19 Face Mask Detection![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/sunnyleeee/OpenSource_Team-F)  
+# COVID-19 Face Mask Detection!   [Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/sunnyleeee/OpenSource_Team-F)  
 
 **OpenSource_Team-F Project**  
 **Member: 박진홍(L), 김기훈, 윤찬우, 용권순, 이선재, 유예린**
