@@ -1,7 +1,8 @@
-# COVID-19 Face Mask Detection
-**OpenSource_Team-F Project**  
-**Member: 박진홍(L), 김기훈, 윤찬우, 용권순, 이선재, 유예린**
+# COVID-19 Face Mask Detection  
+### 오픈소스를 이용한 얼굴인식과 Kears를 활용하여 마스크 검사  
 
+OpenSource_Team-F Project  
+Member: 박진홍(L), 김기훈, 윤찬우, 용권순, 이선재, 유예린  
 ------------------------------------------
 # Member_git_address
 >>### 박진홍  [![Generic badge](https://img.shields.io/badge/github-go-red?logo=github)](https://github.com/HallymhongE)<br>
