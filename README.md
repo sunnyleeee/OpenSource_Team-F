@@ -77,7 +77,7 @@ jupyter notebook, pycharm, spider 각기 다른 환경에서 매끄러운 결과
 **>with_mask(마스크 착용) : Pexels Image + Project Member picture**  
 **>without_mask(마스크 미착용) : Pexels Image + Project Member picture**  
   
-[데이터 수집한 곳][Pexels]
+[•데이터 수집한 곳•][Pexels]
 
 
 #  
