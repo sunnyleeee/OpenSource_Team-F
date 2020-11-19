@@ -71,14 +71,18 @@ jupyter notebook, pycharm, spider 각기 다른 환경에서 매끄러운 결과
 
 #  
 ##  
-###  Dataset  
+### (cnt). Dataset  
 프로젝트 멤버들의 사진과 Kaggle을 통한 사진 각 각 1000장  
->with_mask(마스크 착용) : Kaggle Image + Project Member picture  
->without_mask(마스크 미착용) : Kaggle Image + Project Member picture  
+  
+**>with_mask(마스크 착용) : Pexels Image + Project Member picture**  
+**>without_mask(마스크 미착용) : Pexels Image + Project Member picture**  
+  
+[데이터 수집한 곳][Pexels]
+
 
 #  
 ##  
-###  참고 자료
+### (cnt). 참고 자료
 
 OpenCV 관심영역 :  https://lepton.flir.com/application-notes/people-finding-with-a-lepton  
 
@@ -99,3 +103,6 @@ Mobilenetv2 원리 참고 : https://n1094.tistory.com/29
 >>### 이선재  [![Generic badge](https://img.shields.io/badge/github-go-blueviolet?logo=github)](https://github.com/sunnyleeee)
 >>### 유예린  [![Generic badge](https://img.shields.io/badge/github-go-ff69b4?logo=github)](https://github.com/yl-zzzz)
 ![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/sunnyleeee/OpenSource_Team-F)  
+
+
+[Pexels]: https://www.pexels.com/ko-kr/
