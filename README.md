@@ -23,6 +23,8 @@
 ##  
 ### 2. 개발환경 선택  
 <img src=environment.png width=550 height = 120>  
+각기 다른 개발환경에서 오픈소스와 OpenCV, TensorFlow, Keras를 활용하며 더 좋고 매끄러운 결과를 위해 여러 시도를 하였다. jupyter notebook, pycharm, spider 여러 환경에서 구현을 시도하였다. 결과는 Google에서 만들어진 트레이닝 알고리즘(Mobile v2)을 사용하기 때문에 매끄럽게 연결되는 Google Colab 환경을 선택하게 되었다.  
+또한 오픈소스와 라이브러리 활용에 최적화 되어있는 Linux_Ubuntu를 사용하였다.
 
 
 
