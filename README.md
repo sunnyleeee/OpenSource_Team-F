@@ -146,6 +146,16 @@ $ python3 detect_mask_video.py
 ------------------------------
   
   
+
+
+## (cnt). train & Accuracy
+
+<p align= "center">
+<img src="/accuracy.png" width="500" height="300"></p>  
+
+>GPU : 1050ti 사용(15분소요)  
+**>정확도 99%**  
+
 ## (cnt). Dataset  
 프로젝트 멤버들의 사진과 Kaggle을 통한 사진   
   
@@ -155,15 +165,6 @@ $ python3 detect_mask_video.py
 
   
 [•데이터 수집한 곳•][Pexels]
-
-## (cnt). train & Accuracy
-
-<p align= "center">
-<img src="/accuracy.png" width="500" height="300"></p>  
-
->GPU : 1050ti 사용(15분소요)  
-**>정확도 99%**  
-  
   
 ## (cnt). 참고 자료
 
