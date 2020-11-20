@@ -27,10 +27,10 @@
 ------------------------------------------
 
 
-## 1. 기획 계기
- 현재 전 세계적으로 `코로나`가 고조되고 있으며, 몇 나라를 제외하고 아직 많은 나라들이 `코로나`로 인하여 고통을 호소하고 있다.  
+# 1. 기획 계기
+ > &nbsp;현재 전 세계적으로 `코로나`가 고조되고 있으며, 몇 나라를 제외하고 아직 많은 나라들이 `코로나`로 인하여 고통을 호소하고 있다.  
 우리는 이미 창궐한 상황에서 가장 중요한 것은 `마스크`라고 생각했다. 실제로 확진자와 같은 장소에 있었더라도 마스크를 정확히 착용한 사람은 비 접촉자로 간주하며, 질병관리본부 자료를 보았을 때, **마스크를 제대로 착용하는 것 하나로 감염률이 100%에서 1.5%로 현저히 감염률이 감소한 것을 확인할 수 있었다.**  
-  이런 결과로 토대로 사람이 많이 모이게 되는 지하철 혹은 음식점 및 카페를 통과할 때 마스크의 착용 유무를 한 번 더 집어주는 쪽으로의 발전가능성 또한 미루어 볼 수있을 것이라 생각했으며 코로나의 확산 방지에 도움이 될 것이라 생각되어 프로젝트로 구현  
+&nbsp;이런 결과로 토대로 사람이 많이 모이게 되는 지하철 혹은 음식점 및 카페를 통과할 때 마스크의 착용 유무를 한 번 더 집어주는 쪽으로의 발전가능성 또한 미루어 볼 수있을 것이라 생각했으며 코로나의 확산 방지에 도움이 될 것이라 생각되어 프로젝트로 구현  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;<img src = mask_image.png width = 250 height= 400>
@@ -38,31 +38,43 @@
 
   
  
-## 2. 개발환경 선택  
-<img src=environment.png width=550 height = 120>  
-각기 다른 개발환경에서 `GIT`을 통한 협업 프로젝트로, 오픈소스를 활용하여 `OpenCV, TensorFlow, Keras`로 Mask-detection을 목표로 매끄러운 결과를 위해 여러 시도를 하였다.  
- 처음에는 jupyter notebook, pycharm, spider 다른 환경에서 개인개발 및 협업을 위해 증진하였고 , 알고리즘 선택과정에서 Google에서 만들어진 트레이닝 알고리즘(MobileNet_v2)을 사용하게 되어, Google에서 지원하는 Colab환경과 Linux 환경에서 개발을 하게 되었다.
+# 2. 개발환경 선택  
+<p align= "cneter">
+<img src="/environment.png" width="550" height="120"></p>  
+
+>  &nbsp;각기 다른 개발환경에서 `GIT`을 통한 협업 프로젝트로, 오픈소스를 활용하여 `OpenCV, TensorFlow, Keras`로 Mask-detection을 목표로 매끄러운 결과를 위해 여러 시도를 하였다.  
+처음에는 jupyter notebook, pycharm, spider 다른 환경에서 개인개발 및 협업을 위해 증진하였고 , 알고리즘 선택과정에서 Google에서 만들어진 트레이닝 알고리즘(MobileNet_v2)을 사용하게 되어, Google에서 지원하는 Colab환경과 Linux 환경에서 개발
 
 
 
-## 3. 프로젝트 내용  
-**1단계(오픈소스 활용)**  
- -오픈소스를 이용한 얼굴인식/ keras를 활용한 마스크검사(딥러닝)  
-   
-**2단계(데이터 라벨링 테스트)**  
- -팀원들 마스크사진 및 기타 마스크 사진 업로드  
-   
-**3단계(알고리즘 커스텀마이징)**  
-  
- -오픈소스 활용 및 알고리즘 수정  
-**4단계(결과 확인)**  
-  
- -결과 확인 및 버그 수정  
- -Demo 제작  
+# 3. 프로젝트 내용  
+### 1.단계(오픈소스 활용)  
+ * 오픈소스를 이용한 얼굴인식/ keras를 활용한 마스크검사(딥러닝)  
+ 
+ </br>
+ 
+### 2.단계(데이터 라벨링 테스트)  
+ * 팀원들 마스크사진 및 기타 마스크 사진 업로드  
+
+ </br>
+
+### 3.단계(알고리즘 커스텀마이징)
+* 오픈소스 활용 및 알고리즘 수정  
+
+ </br>
+
+### 4.단계(결과 확인)
+* 결과 확인   
+
+</br>
+
+### 5.단계(협업)
+* Git을 통한 버그/개선사항 수정
+* 데모 모델 생성
+
  
   
-  
-## 4. Model Selection  
+# 4. Model Selection  
 **1) Faster R - CNN**  
 <img src=Faster_R_CNN.jpg width=550 height = 200>  
  -정확하고 겹쳐지거나 작은 사물에 대한 인식률이 높지만, 느리고 실시간연동을 생각하고 만든 네트워크가 아니므로 배제  
@@ -77,18 +89,19 @@
 
   
   
-## 5. 코드 설명  
+# 5. 코드 설명  
 <img src=mask.png width=680 height = 280>  
 
 **1. OpenCV 이용 - 얼굴 인식** ➡ **2. MobileNet_V2 이용 - 마스크 인식** ➡ **3. 착용 및 미착용 구분**  
 
-------------------------------
+
   
-  
-##  테스트 결과
+#  테스트 결과
 <center><img src="ezgif-3-03558c22f237.gif" width="300" height ="300"></center>
 
 
+------------------------------
+  
   
   
 ## (cnt). Dataset  
