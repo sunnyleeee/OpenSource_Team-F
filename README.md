@@ -107,7 +107,9 @@ Google에서 만든 Network 이며, Colab과 리눅스 기반 OS에 이용하기
 <p align="center">
 <img src=mask.png width=680 height = 280></p>
 
-**1. OpenCV 이용 - 얼굴 인식** ➡ **2. MobileNet_V2 이용 - 마스크 인식** ➡ **3. 착용 및 미착용 구분**  
+<strong>
+<p align="center">
+1. OpenCV 이용 - 얼굴 인식 ➡ 2. MobileNet_V2 이용 - 마스크 인식 ➡ 3. 착용 및 미착용 구분</p></strong>
 
 </br></br>
 
