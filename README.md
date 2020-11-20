@@ -110,7 +110,12 @@ Google에서 만든 Network 이며, Colab과 리눅스 기반 OS에 이용하기
 **1. OpenCV 이용 - 얼굴 인식** ➡ **2. MobileNet_V2 이용 - 마스크 인식** ➡ **3. 착용 및 미착용 구분**  
 
 </br></br>
-  
+
+# 6. 코드 설명
+
+
+</br></br>
+
 #  테스트 결과
 
 <p align="center"><img src="ezgif-3-03558c22f237.gif" width="600" height ="600"></p>
@@ -130,6 +135,9 @@ Google에서 만든 Network 이며, Colab과 리눅스 기반 OS에 이용하기
 [•데이터 수집한 곳•][Pexels]
 
 ## (cnt). train & Accuracy
+
+<p align= "center">
+<img src="/accuracy.png" width="500" height="300"></p>  
 
 >GPU : 1050ti 사용(15분소요)  
 **>정확도 99%**  
