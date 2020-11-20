@@ -112,7 +112,23 @@ Google에서 만든 Network 이며, Colab과 리눅스 기반 OS에 이용하기
 
 </br></br>
 
-# 6. 코드 설명
+# 6. 실행 코드
+
+
+### 1. 모델 트레이닝(데이터 : datase폴더) >> 저장명 : mask_detector.model
+```
+$ python3 train_mask_detector.py --dataset dataset 
+```
+
+### 2. 사진마스크 인식 >> 종료키 Key(q)
+```
+$ python3 detect_mask_image.py --image 현위치폴더명/이미지명
+```
+
+### 3. 실시간영상 마스크 인식 >> 종료키 Key(q)
+```
+$ python3 detect_mask_video.py   
+```
 
 
 </br></br>
