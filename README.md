@@ -79,35 +79,40 @@
 
 ### 1) Faster R - CNN
 
-<p align="center"><img src=Faster_R_CNN.jpg width=550 height = 200>  
- 
+<p align="center"><img src=Faster_R_CNN.jpg width=550 height = 200></p>
+
+<p align="center">
 정확하고 겹쳐지거나 작은 사물에 대한 인식률이 높지만, 느리고 실시간연동을 생각하고 만든 네트워크가 아니므로 배제  
 </p>
 
-### 2) MobileNet_V2
+### 2) MobileNet_V2(선택)
 
-<p align="center"><img src=MobileNet_V2.png width=450 height = 130>  
- 
+<p align="center"><img src=MobileNet_V2.png width=550 height = 200></p>
+
+<p align="center">
 Google에서 만든 Network 이며, Colab과 리눅스 기반 OS에 이용하기 적합하고, 연산량 및 모델 사이즈 축소가 가능하여 선택</p>
    
 ### 3) Yolo  
 
-<p align="center"><img src=Yolo.png width=300 height = 300>  
- 
+<p align="center"><img src=Yolo.png width=550 height = 400></p>
+
+<p align="center"> 
 빠르고 정확하고 사용이 쉽지만, 겹친사물의 구분이 어려운 단점과 지속적으로 사용시도는 하였으나 라이브로리 충돌로 인하여 배제</p>
 
 </br></br>  
   
-# 5. 코드 설명  
-<img src=mask.png width=680 height = 280>  
+# 5. 프로젝트 과정
+
+<p align="center">
+<img src=mask.png width=680 height = 280></p>
 
 **1. OpenCV 이용 - 얼굴 인식** ➡ **2. MobileNet_V2 이용 - 마스크 인식** ➡ **3. 착용 및 미착용 구분**  
 
 </br></br>
   
 #  테스트 결과
-<center><img src="ezgif-3-03558c22f237.gif" width="300" height ="300"></center>
 
+<center><img src="ezgif-3-03558c22f237.gif" width="600" height ="600"></center>
 
 ------------------------------
   
