@@ -68,6 +68,13 @@ jupyter notebook, pycharm, spider 각기 다른 환경에서 매끄러운 결과
 
 **1. OpenCV 이용 - 얼굴 인식** ➡ **2. MobileNet_V2 이용 - 마스크 인식** ➡ **3. 착용 및 미착용 구분**  
 
+------------------------------
+#  
+##  
+###  테스트 결과
+
+<img src=ezgif-3-03558c22f237.gif width=300 height = 300>    
+
 
 #  
 ##  
