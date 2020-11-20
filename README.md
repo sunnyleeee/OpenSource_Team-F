@@ -39,13 +39,14 @@
   
  
 # 2. 개발환경 선택  
-<p align= "cneter">
-<img src="/environment.png" width="550" height="120"></p>  
+
+<p align= "center">
+<img src="/environment.png" width="500" height="120"></p>  
 
 >  &nbsp;각기 다른 개발환경에서 `GIT`을 통한 협업 프로젝트로, 오픈소스를 활용하여 `OpenCV, TensorFlow, Keras`로 Mask-detection을 목표로 매끄러운 결과를 위해 여러 시도를 하였다.  
 처음에는 jupyter notebook, pycharm, spider 다른 환경에서 개인개발 및 협업을 위해 증진하였고 , 알고리즘 선택과정에서 Google에서 만들어진 트레이닝 알고리즘(MobileNet_v2)을 사용하게 되어, Google에서 지원하는 Colab환경과 Linux 환경에서 개발
 
-
+</br></br>
 
 # 3. 프로젝트 내용  
 ### 1.단계(오픈소스 활용)  
@@ -61,7 +62,7 @@
 ### 3.단계(알고리즘 커스텀마이징)
 * 오픈소스 활용 및 알고리즘 수정  
 
- </br>
+</br>
 
 ### 4.단계(결과 확인)
 * 결과 확인   
@@ -72,29 +73,34 @@
 * Git을 통한 버그/개선사항 수정
 * 데모 모델 생성
 
- 
+</br></br> 
   
 # 4. Model Selection  
-**1) Faster R - CNN**  
-<img src=Faster_R_CNN.jpg width=550 height = 200>  
- -정확하고 겹쳐지거나 작은 사물에 대한 인식률이 높지만, 느리고 실시간연동을 생각하고 만든 네트워크가 아니므로 배제  
-   
-**2) MobileNet_V2**  
-<img src=MobileNet_V2.png width=450 height = 130>  
- -Google에서 만든 Network 이며, Colab과 리눅스 기반 OS에 이용하기 적합하고, 연산량 및 모델 사이즈 축소가 가능하여 선택  
-   
- **3) Yolo**  
-<img src=Yolo.png width=300 height = 300>  
- -빠르고 정확하고 사용이 쉽지만, 겹친사물의 구분이 어려운 단점과 지속적으로 사용시도는 하였으나 라이브로리 충돌로 인하여 배제
 
-  
+### 1) Faster R - CNN
+
+<p align="center"><img src=Faster_R_CNN.jpg width=550 height = 200>
+정확하고 겹쳐지거나 작은 사물에 대한 인식률이 높지만, 느리고 실시간연동을 생각하고 만든 네트워크가 아니므로 배제  
+</p>
+
+### 2) MobileNet_V2
+
+<p align="center"><img src=MobileNet_V2.png width=450 height = 130>
+Google에서 만든 Network 이며, Colab과 리눅스 기반 OS에 이용하기 적합하고, 연산량 및 모델 사이즈 축소가 가능하여 선택</p>
+   
+### 3) Yolo  
+
+<p align="center"><img src=Yolo.png width=300 height = 300>
+빠르고 정확하고 사용이 쉽지만, 겹친사물의 구분이 어려운 단점과 지속적으로 사용시도는 하였으나 라이브로리 충돌로 인하여 배제</p>
+
+</br></br>  
   
 # 5. 코드 설명  
 <img src=mask.png width=680 height = 280>  
 
 **1. OpenCV 이용 - 얼굴 인식** ➡ **2. MobileNet_V2 이용 - 마스크 인식** ➡ **3. 착용 및 미착용 구분**  
 
-
+</br></br>
   
 #  테스트 결과
 <center><img src="ezgif-3-03558c22f237.gif" width="300" height ="300"></center>
