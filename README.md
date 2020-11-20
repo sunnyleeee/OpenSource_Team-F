@@ -128,12 +128,19 @@ $ python3 detect_mask_image.py --image 현위치폴더명/이미지명
 ### 3. 실시간영상 마스크 인식 >> 종료키 Key(q)
 ```
 $ python3 detect_mask_video.py   
-```
+```  
+# 7. train & Accuracy
+
+<p align= "center">
+<img src="/accuracy.png" width="500" height="300"></p>  
+
+>GPU : 1050ti 사용(15분소요)  
+**>정확도 99%**  
 
 
 </br></br>
 
-#  테스트 결과
+# 8. 테스트 결과
 
 <p align="center"><img src="ezgif-3-03558c22f237.gif" width="600" height ="600"></p>
 
@@ -146,17 +153,7 @@ $ python3 detect_mask_video.py
 ------------------------------
   
   
-
-
-## (cnt). train & Accuracy
-
-<p align= "center">
-<img src="/accuracy.png" width="500" height="300"></p>  
-
->GPU : 1050ti 사용(15분소요)  
-**>정확도 99%**  
-
-## (cnt). Dataset  
+## ※ Dataset  
 프로젝트 멤버들의 사진과 Kaggle을 통한 사진   
   
 **>with_mask(마스크 착용)_300장) : Pexels Image + Project Member picture**  
@@ -166,7 +163,7 @@ $ python3 detect_mask_video.py
   
 [•데이터 수집한 곳•][Pexels]
   
-## (cnt). 참고 자료
+## ※ 참고 자료
 
 OpenCV 관심영역 :  https://lepton.flir.com/application-notes/people-finding-with-a-lepton  
 
