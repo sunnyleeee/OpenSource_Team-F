@@ -32,9 +32,10 @@
 우리는 이미 창궐한 상황에서 가장 중요한 것은 `마스크`라고 생각했다. 실제로 확진자와 같은 장소에 있었더라도 마스크를 정확히 착용한 사람은 비 접촉자로 간주하며, 질병관리본부 자료를 보았을 때, **마스크를 제대로 착용하는 것 하나로 감염률이 100%에서 1.5%로 현저히 감염률이 감소한 것을 확인할 수 있었다.**  
 &nbsp;이런 결과로 토대로 사람이 많이 모이게 되는 지하철 혹은 음식점 및 카페를 통과할 때 마스크의 착용 유무를 한 번 더 집어주는 쪽으로의 발전가능성 또한 미루어 볼 수있을 것이라 생각했으며 코로나의 확산 방지에 도움이 될 것이라 생각되어 프로젝트로 구현  
 
+"""
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;<img src = mask_image.png width = 250 height= 400>
-
+"""
 
   
  
@@ -112,21 +113,26 @@ Google에서 만든 Network 이며, Colab과 리눅스 기반 OS에 이용하기
   
 #  테스트 결과
 
-<center><img src="ezgif-3-03558c22f237.gif" width="600" height ="600"></center>
+<p align="center"><img src="ezgif-3-03558c22f237.gif" width="600" height ="600"></p>
 
 ------------------------------
   
   
   
 ## (cnt). Dataset  
-프로젝트 멤버들의 사진과 Kaggle을 통한 사진 각 각 1000장  
+프로젝트 멤버들의 사진과 Kaggle을 통한 사진   
   
-**>with_mask(마스크 착용) : Pexels Image + Project Member picture**  
-**>without_mask(마스크 미착용) : Pexels Image + Project Member picture**  
+**>with_mask(마스크 착용)_300장) : Pexels Image + Project Member picture**  
+
+**>without_mask(마스크 미착용)_1000장) : Pexels Image + Project Member picture**  
+
   
 [•데이터 수집한 곳•][Pexels]
 
+## (cnt). train & Accuracy
 
+>GPU : 1050ti 사용(15분소요)  
+**>정확도 99%**  
   
   
 ## (cnt). 참고 자료
