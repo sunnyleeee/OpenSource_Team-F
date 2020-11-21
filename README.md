@@ -174,7 +174,7 @@ $ python3 detect_mask_video.py
 **>without_mask(마스크 미착용)_1000장) : Pexels Image + Project Member picture**  
 
   
-[•데이터 수집한 곳•][Pexels]
+데이터 수집에 도움을 받은 곳: [•Pexels•][Pexels]
   
 ## ※ 참고 자료
 
