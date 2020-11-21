@@ -41,7 +41,7 @@
 # 2. 개발환경 선택  
 
 <p align= "center">
-<img src="/environment.png" width="500" height="120"></p>  
+<img src="/Readme_image/environment.png" width="500" height="120"></p>  
 
 >  &nbsp;각기 다른 개발환경에서 `GIT`을 통한 협업 프로젝트로, 오픈소스를 활용하여 `OpenCV, TensorFlow, Keras`로 Mask-detection을 목표로 매끄러운 결과를 위해 여러 시도를 하였다.  
 처음에는 jupyter notebook, pycharm, spider 다른 환경에서 개인개발 및 협업을 위해 증진하였고 , 알고리즘 선택과정에서 Google에서 만들어진 트레이닝 알고리즘(MobileNet_v2)을 사용하게 되어, Google에서 지원하는 Colab환경과 Linux 환경에서 개발
