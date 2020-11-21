@@ -141,11 +141,10 @@ $ python3 detect_mask_video.py
 </br></br>
 
 # 8. 테스트 결과
-
-<p align="center"><img src="/Readme_image/ezgif-3-03558c22f237.gif" width="600" height ="600"></p>
-
-<p align="center"><img src="/Readme_image/our_picture.png" width="1200" height ="600"></p>
-
+> ## 동영상 테스트  
+> <p align="center"><img src="/Readme_image/ezgif-3-03558c22f237.gif" width="600" height ="600"></p>
+> ## 사진 테스트
+> <p align="center"><img src="/Readme_image/our_picture.png" width="1200" height ="600"></p>
 
 ------------------------------
 
