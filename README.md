@@ -144,6 +144,9 @@ $ python3 detect_mask_video.py
 
 <p align="center"><img src="/Readme_image/ezgif-3-03558c22f237.gif" width="600" height ="600"></p>
 
+<p align="center"><img src="/Readme_image/our_picture.png" width="1200" height ="600"></p>
+
+
 ------------------------------
 
 #  9. 아쉬운 점
