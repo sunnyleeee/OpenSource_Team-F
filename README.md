@@ -75,7 +75,7 @@
 
 </br></br> 
   
-# 4. Model Selection  
+# 4. 모델 선정  
 
 ### 1) Faster R - CNN
 
@@ -129,7 +129,7 @@ $ python3 detect_mask_image.py --image 현위치폴더명/이미지명
 ```
 $ python3 detect_mask_video.py   
 ```  
-# 7. train & Accuracy
+# 7. 훈련 및 정확도
 
 <p align= "center">
 <img src="/Readme_image/accuracy.png" width="500" height="300"></p>  
