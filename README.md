@@ -188,9 +188,9 @@ $ python3 detect_mask_video.py
 ## ※ Dataset  
 프로젝트 멤버들의 사진과 Kaggle을 통한 사진   
   
-**>with_mask(마스크 착용)_300장) : Pexels Image + Project Member picture**  
+**>with_mask(마스크 착용)_1015장) : Pexels Image + Project Member picture**  
 
-**>without_mask(마스크 미착용)_1000장) : Pexels Image + Project Member picture**  
+**>without_mask(마스크 미착용)_1065장) : Pexels Image + Project Member picture**  
 
   
 데이터 수집에 도움을 받은 곳: [•Pexels•][Pexels]
@@ -199,13 +199,14 @@ $ python3 detect_mask_video.py
 
 OpenCV 관심영역 :  https://lepton.flir.com/application-notes/people-finding-with-a-lepton  
 
-마스크 인식과 기존 opensource 활용 : https://github.com/chandrikadeb7/Face-Mask-Detection  
+마스크 인식과 기존 opensource 활용(원작자) : https://github.com/chandrikadeb7/Face-Mask-Detection  
 
 마스크 인식(yolo) 참고 : https://github.com/VictorLin000/YOLOv3_mask_detect  
 
 마스크 인식 원리 참고 : https://towardsdatascience.com/covid-19-face-mask-detection-using-tensorflow-and-opencv-702dd833515b  
 
 Mobilenetv2 원리 참고 : https://n1094.tistory.com/29  
+
 
 
 [Pexels]: https://www.pexels.com/ko-kr/
