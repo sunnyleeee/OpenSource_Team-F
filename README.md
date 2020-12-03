@@ -132,7 +132,7 @@ $ python3 detect_mask_video.py
 # 7. 훈련 및 정확도
 
 <p align= "center">
-<img src="/Readme_image/accuracy.png" width="500" height="300"></p>  
+<img src="/Readme_image/train.png" width="500" height="300"></p>  
 
 >GPU : 1050ti 사용(15분소요)  
 **>정확도 99%**  
