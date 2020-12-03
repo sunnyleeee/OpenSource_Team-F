@@ -147,7 +147,7 @@ $ python3 detect_mask_video.py
 **2) 동영상 테스트**    
 ><p align="center"><img src="/Readme_image/ezgif-3-03558c22f237.gif" width="600" height ="600"></p>  
 
-**3) 공학관에서**   
+**3) 실생활 적용 테스트**   
 ><p align="center"><img src="/Readme_image/final.gif" width="600" height ="600"></p>  
 
 ------------------------------
